@@ -1,0 +1,25 @@
+[INFO ] 2025-04-07 23:39:56.953 [main] Base_Class - Base URI and Token setup Completed
+[INFO ] 2025-04-07 23:39:58.321 [main] Base_Class - Booking ID Generated
+[INFO ] 2025-04-07 23:39:58.322 [main] Base_Class - Verified that Status code is 200
+[INFO ] 2025-04-07 23:39:58.324 [main] Base_Class - Verified that Status line is HTTP/1.1 200 OK
+[INFO ] 2025-04-07 23:39:58.324 [main] Base_Class - Created the Booking
+[INFO ] 2025-04-07 23:39:59.653 [main] Base_Class - Verified that Status code is 200
+[INFO ] 2025-04-07 23:39:59.653 [main] Base_Class - Verified that Status line is HTTP/1.1 200 OK
+[INFO ] 2025-04-07 23:39:59.653 [main] Base_Class - Booking is verified by checking it
+[INFO ] 2025-04-07 23:40:01.298 [main] Base_Class - Status code verified
+[INFO ] 2025-04-07 23:40:01.299 [main] Base_Class - Status Line is Verified
+[INFO ] 2025-04-07 23:40:01.308 [main] Base_Class - Verified that after Update firstname is Meghana
+[INFO ] 2025-04-07 23:40:01.319 [main] Base_Class - Verified that after Update checkout date is 2024-02-15
+[INFO ] 2025-04-07 23:40:01.319 [main] Base_Class - Updated the Booking
+[INFO ] 2025-04-07 23:40:02.866 [main] Base_Class - Verified that Status code is 200
+[INFO ] 2025-04-07 23:40:02.867 [main] Base_Class - Verified that Status line is HTTP/1.1 200 OK
+[INFO ] 2025-04-07 23:40:02.877 [main] Base_Class - Verified that after Update depositpaid date is false
+[INFO ] 2025-04-07 23:40:02.887 [main] Base_Class - Verified that after Update additionalneeds is dinner
+[INFO ] 2025-04-07 23:40:02.887 [main] Base_Class - Partially Updated the Booking
+[INFO ] 2025-04-07 23:40:13.890 [main] Base_Class - Verified that Status code is 201
+[INFO ] 2025-04-07 23:40:13.891 [main] Base_Class - Verified that Status line is HTTP/1.1 201 Created
+[INFO ] 2025-04-07 23:40:13.891 [main] Base_Class - Deleted the Booking
+[INFO ] 2025-04-07 23:40:13.891 [main] Base_Class - All the Requests done
+[INFO ] 2025-04-07 23:40:13.891 [main] Base_Class - Test execution completed. Extent Report generated.
+[INFO ] 2025-04-07 23:40:13.891 [main] Base_Class - Allure Reports Generated
+[INFO ] 2025-04-07 23:40:14.461 [main] Base_Class - Extent Report flushed successfully.

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="24.767" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\hp5cd\RestAssured API Testing Automation Framework\RestAssured_Automation_Framework\target\test-classes;C:\Users\hp5cd\RestAssured API Testing Automation Framework\RestAssured_Automation_Framework\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire2922065814326028869\surefirebooter-20250407233949369_3.jar C:\Windows\Temp\surefire2922065814326028869 2025-04-07T23-39-49_073-jvmRun1 surefire-20250407233949369_1tmp surefire_0-20250407233949369_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\hp5cd\RestAssured API Testing Automation Framework\RestAssured_Automation_Framework\target\test-classes;C:\Users\hp5cd\RestAssured API Testing Automation Framework\RestAssured_Automation_Framework\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\hp5cd\RestAssured API Testing Automation Framework\RestAssured_Automation_Framework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire2922065814326028869\surefirebooter-20250407233949369_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="LAPTOP-CDU0EB2F$"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="C:\Users\hp5cd\RestAssured API Testing Automation Framework\RestAssured_Automation_Framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\hp5cd\Apache Maven\apache-maven-3.9.9/bin;C:\Program Files\Java\jdk-23/bin;C:\Program Files\Java\jdk-23/bin;C:\Users\hp5cd\Downloads\platform-tools-latest-windows\platform-tools\adb.exe;C:\Program Files\nodejs\;C:\Users\hp5cd\AppData\Local\Android\Sdk\emulator;C:\Users\hp5cd\AppData\Local\Android\Sdk;C:\gradle\gradle-8.12\bin;C:\Users\hp5cd\allure\allure-2.32.0\bin;C:\Users\hp5cd\.jdks\openjdk-21.0.1\bin;C:\Users\hp5cd\browsermob\browsermob-proxy-2.1.4\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\hp5cd\Apache Maven\apache-maven-3.9.9\bin;C:\Users\hp5cd\Apache Maven\apache-maven-3.9.9\bin;C:\Users\hp5cd\Apache Maven\apache-maven-3.9.9\bin;C:\Users\hp5cd\Eclipse_Automation_Project\Git\cmd;C:\Users\hp5cd\AppData\Roaming\npm;C:\Users\hp5cd\allure\allure-2.33.0\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="createbooking" classname="Runner.Test_Runner" time="1.461">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1744049394&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=1QscL5rhwBeZMiJPuMTLihCTTph1BKKMCqo7gHsdDVw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1744049394&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=1QscL5rhwBeZMiJPuMTLihCTTph1BKKMCqo7gHsdDVw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-gMl0kl3CVHvx/CaTYoBxQPibHbI"
+Date: Mon, 07 Apr 2025 18:09:54 GMT
+Via: 1.1 vegur
+
+{
+    "token": "2e46cd683c2ee51"
+}
+[INFO ] 2025-04-07 23:39:56.953 [main] Base_Class - Base URI and Token setup Completed
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Maadhav",
+    "lastname": "Hira",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-02-01",
+        "checkout": "2024-02-10"
+    },
+    "additionalneeds": "breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1744049397&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=o80Oxe%2Bw7%2BLUFEY4ypKVscDFw9lMIzB7sa2L7DlDitQ%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1744049397&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=o80Oxe%2Bw7%2BLUFEY4ypKVscDFw9lMIzB7sa2L7DlDitQ%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 201
+Etag: W/"c9-SH9Luf63nH3W/brQOiZ40pFee40"
+Date: Mon, 07 Apr 2025 18:09:57 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 4165,
+    "booking": {
+        "firstname": "Maadhav",
+        "lastname": "Hira",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-02-01",
+            "checkout": "2024-02-10"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+[INFO ] 2025-04-07 23:39:58.321 [main] Base_Class - Booking ID Generated
+[INFO ] 2025-04-07 23:39:58.322 [main] Base_Class - Verified that Status code is 200
+[INFO ] 2025-04-07 23:39:58.324 [main] Base_Class - Verified that Status line is HTTP/1.1 200 OK
+[INFO ] 2025-04-07 23:39:58.324 [main] Base_Class - Created the Booking
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getbooking" classname="Runner.Test_Runner" time="1.183">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/4165
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1744049398&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Z3loi2mp3YWB5MwJLCmXLbemyklQMroLkQqW8LvTmQo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1744049398&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Z3loi2mp3YWB5MwJLCmXLbemyklQMroLkQqW8LvTmQo%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-6TmKxY6SuUnCZ504xFkWv9zRoYM"
+Date: Mon, 07 Apr 2025 18:09:58 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Maadhav",
+    "lastname": "Hira",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-02-01",
+        "checkout": "2024-02-10"
+    },
+    "additionalneeds": "breakfast"
+}
+[INFO ] 2025-04-07 23:39:59.653 [main] Base_Class - Verified that Status code is 200
+[INFO ] 2025-04-07 23:39:59.653 [main] Base_Class - Verified that Status line is HTTP/1.1 200 OK
+[INFO ] 2025-04-07 23:39:59.653 [main] Base_Class - Booking is verified by checking it
+]]></system-out>
+  </testcase>
+  <testcase name="updatebooking" classname="Runner.Test_Runner" time="1.662">
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/4165
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		token=2e46cd683c2ee51
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Meghana",
+    "additionalneeds": "breakfast",
+    "bookingdates": {
+        "checkin": "2024-02-01",
+        "checkout": "2024-02-15"
+    },
+    "totalprice": 1250,
+    "depositpaid": true,
+    "lastname": "Hira"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1744049400&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DBRZ%2BlWBbG8GJhDa0MgelZgBulelSnAQaHQtfj09xSc%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1744049400&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DBRZ%2BlWBbG8GJhDa0MgelZgBulelSnAQaHQtfj09xSc%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-zbN+AfLypvPH5kACEZZv6JO0sok"
+Date: Mon, 07 Apr 2025 18:10:00 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Meghana",
+    "lastname": "Hira",
+    "totalprice": 1250,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-02-01",
+        "checkout": "2024-02-15"
+    },
+    "additionalneeds": "breakfast"
+}
+[INFO ] 2025-04-07 23:40:01.298 [main] Base_Class - Status code verified
+[INFO ] 2025-04-07 23:40:01.299 [main] Base_Class - Status Line is Verified
+[INFO ] 2025-04-07 23:40:01.308 [main] Base_Class - Verified that after Update firstname is Meghana
+[INFO ] 2025-04-07 23:40:01.319 [main] Base_Class - Verified that after Update checkout date is 2024-02-15
+[INFO ] 2025-04-07 23:40:01.319 [main] Base_Class - Updated the Booking
+]]></system-out>
+  </testcase>
+  <testcase name="partialupdatebooking" classname="Runner.Test_Runner" time="1.567">
+    <system-out><![CDATA[Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/4165
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		token=2e46cd683c2ee51
+Multiparts:		<none>
+Body:
+{
+    "additionalneeds": "Dinner",
+    "depositpaid": false
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1744049402&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=7iFzqTUrQrYhIxqKdL33D%2Bz1b4TAviYfpYBUjykNZOI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1744049402&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=7iFzqTUrQrYhIxqKdL33D%2Bz1b4TAviYfpYBUjykNZOI%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 170
+Etag: W/"aa-+1A9lC9w7Z3FkbbdLN46Gg4j8tQ"
+Date: Mon, 07 Apr 2025 18:10:02 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Meghana",
+    "lastname": "Hira",
+    "totalprice": 1250,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2024-02-01",
+        "checkout": "2024-02-15"
+    },
+    "additionalneeds": "Dinner"
+}
+[INFO ] 2025-04-07 23:40:02.866 [main] Base_Class - Verified that Status code is 200
+[INFO ] 2025-04-07 23:40:02.867 [main] Base_Class - Verified that Status line is HTTP/1.1 200 OK
+[INFO ] 2025-04-07 23:40:02.877 [main] Base_Class - Verified that after Update depositpaid date is false
+[INFO ] 2025-04-07 23:40:02.887 [main] Base_Class - Verified that after Update additionalneeds is dinner
+[INFO ] 2025-04-07 23:40:02.887 [main] Base_Class - Partially Updated the Booking
+]]></system-out>
+  </testcase>
+  <testcase name="deletebooking" classname="Runner.Test_Runner" time="11.004">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://restful-booker.herokuapp.com/booking/4165
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		token=2e46cd683c2ee51
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1744049412&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=FUlJX0a%2BqT%2Fb5nx425G7iRWGEHidkcXIesg3HyZxa48%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1744049412&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=FUlJX0a%2BqT%2Fb5nx425G7iRWGEHidkcXIesg3HyZxa48%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 7
+Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
+Date: Mon, 07 Apr 2025 18:10:12 GMT
+Via: 1.1 vegur
+
+Created
+[INFO ] 2025-04-07 23:40:13.890 [main] Base_Class - Verified that Status code is 201
+[INFO ] 2025-04-07 23:40:13.891 [main] Base_Class - Verified that Status line is HTTP/1.1 201 Created
+[INFO ] 2025-04-07 23:40:13.891 [main] Base_Class - Deleted the Booking
+[INFO ] 2025-04-07 23:40:13.891 [main] Base_Class - All the Requests done
+[INFO ] 2025-04-07 23:40:13.891 [main] Base_Class - Test execution completed. Extent Report generated.
+[INFO ] 2025-04-07 23:40:13.891 [main] Base_Class - Allure Reports Generated
+]]></system-out>
+  </testcase>
+</testsuite>
