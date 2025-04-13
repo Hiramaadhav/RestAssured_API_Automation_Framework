@@ -1,4 +1,5 @@
 RestAssured API Automation Framework (Restful-Booker)
+
 This repository contains a Hybrid API Automation Framework for testing the Restful-Booker API using RestAssured. The framework supports full CRUD operations (Create, Read, Update, Partial Update, Delete) with a scalable and maintainable architecture, built following Test-Driven Development (TDD) practices. The framework is designed to be robust, reliable, and integrates seamlessly with CI/CD pipelines.
 
 🚀 Project Overview
