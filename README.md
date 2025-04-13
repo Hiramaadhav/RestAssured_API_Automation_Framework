@@ -1,81 +1,83 @@
 RestAssured API Automation Framework (Restful-Booker)
-This repository contains the implementation of a Hybrid API Automation Framework designed using RestAssured for testing the Restful-Booker API. The framework supports full CRUD operations (Create, Read, Update, Partial Update, Delete) with a scalable and maintainable architecture, following Test-Driven Development (TDD) practices.
+This repository contains a Hybrid API Automation Framework for testing the Restful-Booker API using RestAssured. The framework supports full CRUD operations (Create, Read, Update, Partial Update, Delete) with a scalable and maintainable architecture, built following Test-Driven Development (TDD) practices. The framework is designed to be robust, reliable, and integrates seamlessly with CI/CD pipelines.
 
-Project Overview
-The goal of this project is to efficiently validate RESTful services of the Restful-Booker API, providing comprehensive automated test scenarios that ensure the functionality and reliability of the API endpoints.
+🚀 Project Overview
+This project automates the validation of the Restful-Booker API to ensure the accuracy and functionality of all its endpoints. The framework supports BDD-style test cases, token-based authentication, and integrates multiple reporting tools to provide comprehensive test execution insights.
 
-Key Features:
-Full CRUD Operations: Tests for Create, Read, Update, Partial Update, and Delete API methods.
+Key Features
+Full CRUD Operations: Comprehensive API testing for Create, Read, Update, Partial Update, and Delete operations.
 
-BDD-style Test Scenarios: Developed using TestNG with a business-readable approach.
+BDD-style Scenarios: Written using TestNG with a business-readable approach to align with agile practices.
 
-Token-Based Authentication: Secured API interactions with automated token generation and renewal.
+Token-based Authentication: Secure API interactions with automatic token generation and renewal.
 
-Maven-based Framework: Simplified build management, dependency handling, and plugin configuration.
+Modular Architecture: Clean separation of concerns with dedicated classes for requests, responses, utilities, and configuration.
 
-Comprehensive Reporting: Integrated HTML, Emailable Reports, Extent Reports, and Allure Reports for detailed test execution analysis.
+Comprehensive Reporting: Multiple reporting tools to generate:
 
-Logging with Log4j2: Logs and evidence to aid debugging and traceability.
+HTML Reports
 
-Tools & Technologies
-Java - Programming Language
+Emailable Reports
 
-RestAssured - For REST API Testing
+Extent Reports with detailed logs and screenshots
 
-TestNG - Testing Framework
+Allure Reports with rich annotations like @Epic, @Feature, @Severity, and @Description
 
-Maven - Build and Dependency Management
+CI/CD Integration: Jenkins integration using Maven for continuous integration and automated test execution.
 
-Jenkins - CI/CD Integration
+🛠 Tools & Technologies Used
+Java – Programming Language
 
-Log4j2 - Logging
+RestAssured – For API Testing
 
-Allure Reports - Test Reporting
+TestNG – Testing Framework for BDD-style scenarios
 
-Extent Reports - Enhanced Test Reporting with Screenshots and Logs
+Maven – Build and Dependency Management
 
-JSON - For Request/Response handling
+Jenkins – Continuous Integration/Continuous Delivery
 
-Postman - API Testing (Manual/Initial Testing)
+Log4j2 – For Logging and Debugging
 
-Git/GitHub - Version Control and Collaboration
+Allure Reports – For Test Reporting
 
-Framework Structure
-The framework is designed with a clean architecture following SOLID principles. It includes:
+Extent Reports – For Detailed Test Execution Insights
+
+JSON – For Request/Response Handling
+
+Postman – For Initial API Testing (manual testing)
+
+Git/GitHub – Version Control and Collaboration
+
+⚙️ Framework Architecture
+The framework follows a modular and scalable architecture. The key components include:
 
 1. Request Classes:
-Handles the creation and configuration of API requests.
+Responsible for creating and handling API requests (GET, POST, PUT, DELETE, etc.).
 
 2. POJO Classes:
-Used for request/response mapping to facilitate easy data handling.
+These classes map the API request/response data in a structured way using Java objects for easier manipulation.
 
 3. Utility Classes:
-Contains common methods and reusable logic to reduce redundancy.
+Contains reusable methods and logic to handle common functionalities such as response validation, token generation, and API request setup.
 
 4. TestBase Class:
-Centralized configuration and setup, initialized with the @BeforeSuite annotation.
+Contains the centralized configuration for setting up test environments, including @BeforeSuite setup and global configurations.
 
-Features & Enhancements
-BDD Syntax: Test cases are written in a behavior-driven style, making them easier to understand for both developers and non-developers (aligned with agile practices).
+📊 Reporting & Logging
+1. Test Reports
+HTML Report: Summary of the overall test execution, including passed/failed tests.
 
-Token-Based Authentication: Automated token generation and renewal logic ensure the tests run smoothly with secure access to the API.
+Emailable Report: A detailed report that can be emailed after each test run.
 
-Comprehensive Reporting: Multiple reporting tools integrated to generate various reports like HTML, Allure, and Extent, along with detailed logs to track execution progress and failures.
+Extent Reports: Rich, interactive reports with step-by-step execution logs, screenshots (if applicable), and detailed test information.
 
-CI/CD Integration
-This framework is integrated with Jenkins using Maven for seamless CI/CD integration, enabling automated execution on every code commit or scheduled build.
+Allure Reports: A powerful and visually rich reporting tool that gives detailed insights into test execution with annotations like @Epic, @Feature, @Severity, and @Description.
 
-Getting Started
-Prerequisites:
-Java (preferably JDK 8 or above)
+2. Logging with Log4j2
+Provides detailed logging of the test execution process to assist with debugging and traceability.
 
-Maven (for build and dependency management)
+🚀 CI/CD Integration
+The framework is integrated with Jenkins and Maven for seamless CI/CD pipelines. Tests are automatically executed upon code commits or on a scheduled basis, ensuring continuous testing of the API.
 
-Git (for version control)
-
-Jenkins (optional for CI/CD)
-
-Postman (for initial testing)
-
-Allure (for test reporting)
-
+🤝 Contributing
+Feel free to fork this repository, submit issues, and contribute to the project. If you have any questions or suggestions, feel free to open an issue or pull request.
